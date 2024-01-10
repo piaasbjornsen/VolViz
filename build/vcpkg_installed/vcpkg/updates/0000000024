@@ -1,0 +1,8 @@
+Package: tbb
+Version: 2020_U3
+Port-Version: 6
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 1d4ac4759686023acee821393d6e955a870bf9b76cb1b964bd43869ebc6b7f25
+Description: Intel's Threading Building Blocks.
+Status: install ok half-installed

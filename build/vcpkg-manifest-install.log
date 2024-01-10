@@ -1,0 +1,316 @@
+Detecting compiler hash for triplet arm64-osx...
+The following packages will be built and installed:
+    catch2:arm64-osx@2.13.7#1 -- /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/catch2/4df380019e5c3a0e450798db43d9ce70906b7aad
+    fmt:arm64-osx@8.0.1 -- /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/fmt/105214e3085a1404bca0fa89e7d80aa016e8cacb
+    glew:arm64-osx@2.2.0 -- /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/glew/3211ed09c36542372ab3f1f690a42e2edbb072bc
+    glfw3:arm64-osx@3.3.4 -- /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/glfw3/aa7325438c3156b62488a559218d12e7e860196c
+    glm:arm64-osx@0.9.9.8#1 -- /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/glm/4aafac80f39a72fadaf6a31afb961790678062de
+    imgui:arm64-osx@1.84.2 -- /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/imgui/c07b221daf49a22fc9e8e7571bb329485f618a7f
+    ms-gsl:arm64-osx@3.1.0#1 -- /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/ms-gsl/d51947d40835a72b1728c68ca8587e04e3f8e1e2
+    nativefiledialog:arm64-osx@2019-08-28#1 -- /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/nativefiledialog/d765a8f84ba49c18701f68b7471f1b93b7313ddc
+  * opengl:arm64-osx@0.0#9 -- /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/opengl/9fa8ed2a1fb625613a32ee95d2413dbc921860f7
+    stb:arm64-osx@2020-09-14#1 -- /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/stb/fa6d7e998f98f122efa37f456ffa498d546185b9
+    tbb:arm64-osx@2020_U3#6 -- /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/tbb/e168e03c2e5776bdee59accf5f643ae26b0ddd84
+  * vcpkg-cmake:arm64-osx@2021-07-30 -- /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/vcpkg-cmake/c6df7e0faeda9e783175746c7c440c9bc2bdb111
+  * vcpkg-cmake-config:arm64-osx@2021-05-22#1 -- /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/vcpkg-cmake-config/330cc51bc99c6b71ed5fb51901f6f838684015a5
+Additional packages (*) will be modified to complete this operation.
+Restored 0 package(s) from /Users/piaasbjornsen/.cache/vcpkg/archives in 274 us. Use --debug to see more details.
+Installing 1/13 vcpkg-cmake-config:arm64-osx@2021-05-22#1...
+Building vcpkg-cmake-config:arm64-osx@2021-05-22#1...
+warning: -- Using community triplet arm64-osx. This triplet configuration is not guaranteed to succeed.
+-- [COMMUNITY] Loading triplet configuration from: /Users/piaasbjornsen/Documents/H2023/vcpkg/triplets/community/arm64-osx.cmake
+-- Installing port from location: /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/vcpkg-cmake-config/330cc51bc99c6b71ed5fb51901f6f838684015a5
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/vcpkg-cmake-config_arm64-osx/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/vcpkg-cmake-config_arm64-osx/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/vcpkg-cmake-config_arm64-osx/share/vcpkg-cmake-config/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 8.65 ms.
+Elapsed time to handle vcpkg-cmake-config:arm64-osx: 29.5 ms
+vcpkg-cmake-config:arm64-osx package ABI: 07f5d0e584d965727868b22e3a846447f6db1e6aadf75efbaa52c5841e53ac70
+Installing 2/13 vcpkg-cmake:arm64-osx@2021-07-30...
+Building vcpkg-cmake:arm64-osx@2021-07-30...
+warning: -- Using community triplet arm64-osx. This triplet configuration is not guaranteed to succeed.
+-- [COMMUNITY] Loading triplet configuration from: /Users/piaasbjornsen/Documents/H2023/vcpkg/triplets/community/arm64-osx.cmake
+-- Installing port from location: /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/vcpkg-cmake/c6df7e0faeda9e783175746c7c440c9bc2bdb111
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/vcpkg-cmake_arm64-osx/share/vcpkg-cmake/vcpkg_cmake_configure.cmake
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/vcpkg-cmake_arm64-osx/share/vcpkg-cmake/vcpkg_cmake_build.cmake
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/vcpkg-cmake_arm64-osx/share/vcpkg-cmake/vcpkg_cmake_install.cmake
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/vcpkg-cmake_arm64-osx/share/vcpkg-cmake/vcpkg_cmake_get_vars.cmake
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/vcpkg-cmake_arm64-osx/share/vcpkg-cmake/cmake_get_vars
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/vcpkg-cmake_arm64-osx/share/vcpkg-cmake/cmake_get_vars/CMakeLists.txt
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/vcpkg-cmake_arm64-osx/share/vcpkg-cmake/vcpkg-port-config.cmake
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/vcpkg-cmake_arm64-osx/share/vcpkg-cmake/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 6.27 ms.
+Elapsed time to handle vcpkg-cmake:arm64-osx: 27.2 ms
+vcpkg-cmake:arm64-osx package ABI: 2e9a5a4a1278d962c22101b69925cf09614733a0498b9d478c36b5613706ed97
+Installing 3/13 catch2:arm64-osx@2.13.7#1...
+Building catch2:arm64-osx@2.13.7#1...
+warning: -- Using community triplet arm64-osx. This triplet configuration is not guaranteed to succeed.
+-- [COMMUNITY] Loading triplet configuration from: /Users/piaasbjornsen/Documents/H2023/vcpkg/triplets/community/arm64-osx.cmake
+-- Installing port from location: /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/catch2/4df380019e5c3a0e450798db43d9ce70906b7aad
+-- Downloading https://github.com/catchorg/Catch2/archive/v2.13.7.tar.gz -> catchorg-Catch2-v2.13.7.tar.gz...
+-- Extracting source /Users/piaasbjornsen/Documents/H2023/vcpkg/downloads/catchorg-Catch2-v2.13.7.tar.gz
+-- Applying patch fix-install-path.patch
+-- Using source at /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/catch2/src/v2.13.7-da4d0c36b6.clean
+-- Configuring arm64-osx-dbg
+-- Configuring arm64-osx-rel
+-- Building arm64-osx-dbg
+-- Building arm64-osx-rel
+-- Fixing pkgconfig file: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/catch2_arm64-osx/lib/pkgconfig/catch2.pc
+-- Fixing pkgconfig file: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/catch2_arm64-osx/debug/lib/pkgconfig/catch2.pc
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/catch2_arm64-osx/share/catch2/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 302 ms.
+Elapsed time to handle catch2:arm64-osx: 11 s
+catch2:arm64-osx package ABI: 982d5ca7335828eb83eb35d5c7bef852ba3eb626510811b748ffce7d2ff16a63
+Installing 4/13 fmt:arm64-osx@8.0.1...
+Building fmt:arm64-osx@8.0.1...
+warning: -- Using community triplet arm64-osx. This triplet configuration is not guaranteed to succeed.
+-- [COMMUNITY] Loading triplet configuration from: /Users/piaasbjornsen/Documents/H2023/vcpkg/triplets/community/arm64-osx.cmake
+-- Installing port from location: /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/fmt/105214e3085a1404bca0fa89e7d80aa016e8cacb
+-- Downloading https://github.com/fmtlib/fmt/archive/d141cdbeb0fb422a3fb7173b285fd38e0d1772dc.tar.gz -> fmtlib-fmt-d141cdbeb0fb422a3fb7173b285fd38e0d1772dc.tar.gz...
+-- Extracting source /Users/piaasbjornsen/Documents/H2023/vcpkg/downloads/fmtlib-fmt-d141cdbeb0fb422a3fb7173b285fd38e0d1772dc.tar.gz
+-- Applying patch fix-write-batch.patch
+-- Using source at /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/fmt/src/8e0d1772dc-2f06dbbb1c.clean
+-- Configuring arm64-osx-dbg
+-- Configuring arm64-osx-rel
+-- Building arm64-osx-dbg
+-- Building arm64-osx-rel
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/fmt_arm64-osx/share/fmt/copyright
+-- Fixing pkgconfig file: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/fmt_arm64-osx/lib/pkgconfig/fmt.pc
+-- Fixing pkgconfig file: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/fmt_arm64-osx/debug/lib/pkgconfig/fmt.pc
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/fmt_arm64-osx/share/fmt/usage
+-- Performing post-build validation
+Stored binaries in 1 destinations in 69.7 ms.
+Elapsed time to handle fmt:arm64-osx: 4.9 s
+fmt:arm64-osx package ABI: 442017f5192fb5a7a501aa723498101e88d025ef649896f11368a93a02140d18
+Installing 5/13 opengl:arm64-osx@0.0#9...
+Building opengl:arm64-osx@0.0#9...
+warning: -- Using community triplet arm64-osx. This triplet configuration is not guaranteed to succeed.
+-- [COMMUNITY] Loading triplet configuration from: /Users/piaasbjornsen/Documents/H2023/vcpkg/triplets/community/arm64-osx.cmake
+-- Installing port from location: /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/opengl/9fa8ed2a1fb625613a32ee95d2413dbc921860f7
+-- Performing post-build validation
+Stored binaries in 1 destinations in 7.18 ms.
+Elapsed time to handle opengl:arm64-osx: 38.3 ms
+opengl:arm64-osx package ABI: 9408fc1f9bff7115a142404c134437d874062b69daa2648ace0e5ec6524b657b
+Installing 6/13 glew:arm64-osx@2.2.0...
+Building glew:arm64-osx@2.2.0...
+warning: -- Using community triplet arm64-osx. This triplet configuration is not guaranteed to succeed.
+-- [COMMUNITY] Loading triplet configuration from: /Users/piaasbjornsen/Documents/H2023/vcpkg/triplets/community/arm64-osx.cmake
+-- Installing port from location: /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/glew/3211ed09c36542372ab3f1f690a42e2edbb072bc
+-- Downloading https://github.com/nigels-com/glew/releases/download/glew-2.2.0/glew-2.2.0.tgz -> glew-2.2.0.tgz...
+-- Extracting source /Users/piaasbjornsen/Documents/H2023/vcpkg/downloads/glew-2.2.0.tgz
+-- Applying patch fix-LNK2019.patch
+-- Using source at /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/glew/src/glew-7f0b9182fc.clean
+-- Configuring arm64-osx-dbg
+-- Configuring arm64-osx-rel
+-- Building arm64-osx-dbg
+-- Building arm64-osx-rel
+-- Fixing pkgconfig file: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/glew_arm64-osx/lib/pkgconfig/glew.pc
+-- Fixing pkgconfig file: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/glew_arm64-osx/debug/lib/pkgconfig/glew.pc
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/glew_arm64-osx/share/glew/vcpkg-cmake-wrapper.cmake
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/glew_arm64-osx/share/glew/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 161 ms.
+Elapsed time to handle glew:arm64-osx: 1.1 min
+glew:arm64-osx package ABI: 56a6f7d8fb71e9c8a65e9b0d8349b46195519a24d1cee3b6cfb18cf40bd1ac25
+Installing 7/13 glfw3:arm64-osx@3.3.4...
+Building glfw3:arm64-osx@3.3.4...
+warning: -- Using community triplet arm64-osx. This triplet configuration is not guaranteed to succeed.
+-- [COMMUNITY] Loading triplet configuration from: /Users/piaasbjornsen/Documents/H2023/vcpkg/triplets/community/arm64-osx.cmake
+-- Installing port from location: /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/glfw3/aa7325438c3156b62488a559218d12e7e860196c
+-- Downloading https://github.com/glfw/glfw/archive/814b7929c5add4b0541ccad26fb81f28b71dc4d8.tar.gz -> glfw-glfw-814b7929c5add4b0541ccad26fb81f28b71dc4d8.tar.gz...
+-- Extracting source /Users/piaasbjornsen/Documents/H2023/vcpkg/downloads/glfw-glfw-814b7929c5add4b0541ccad26fb81f28b71dc4d8.tar.gz
+-- Using source at /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/glfw3/src/28b71dc4d8-8322ed2fb8.clean
+-- Configuring arm64-osx-dbg
+-- Configuring arm64-osx-rel
+-- Building arm64-osx-dbg
+-- Building arm64-osx-rel
+-- Fixing pkgconfig file: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/glfw3_arm64-osx/lib/pkgconfig/glfw3.pc
+-- Fixing pkgconfig file: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/glfw3_arm64-osx/debug/lib/pkgconfig/glfw3.pc
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/glfw3_arm64-osx/share/glfw3/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 55.9 ms.
+Elapsed time to handle glfw3:arm64-osx: 4.2 s
+glfw3:arm64-osx package ABI: d929acf3814086dcadc992563ba8083273b8acc0aa43662e0aa1772447fd362f
+Installing 8/13 glm:arm64-osx@0.9.9.8#1...
+Building glm:arm64-osx@0.9.9.8#1...
+warning: -- Using community triplet arm64-osx. This triplet configuration is not guaranteed to succeed.
+-- [COMMUNITY] Loading triplet configuration from: /Users/piaasbjornsen/Documents/H2023/vcpkg/triplets/community/arm64-osx.cmake
+-- Installing port from location: /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/glm/4aafac80f39a72fadaf6a31afb961790678062de
+-- Downloading https://github.com/g-truc/glm/archive/bf71a834948186f4097caa076cd2663c69a10e1e.tar.gz -> g-truc-glm-bf71a834948186f4097caa076cd2663c69a10e1e.tar.gz...
+-- Extracting source /Users/piaasbjornsen/Documents/H2023/vcpkg/downloads/g-truc-glm-bf71a834948186f4097caa076cd2663c69a10e1e.tar.gz
+-- Using source at /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/glm/src/3c69a10e1e-d8f71d3bef.clean
+-- Configuring arm64-osx-dbg
+-- Configuring arm64-osx-rel
+-- Building arm64-osx-dbg
+-- Building arm64-osx-rel
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/glm_arm64-osx/share/glm/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 65.1 ms.
+Elapsed time to handle glm:arm64-osx: 2.8 s
+glm:arm64-osx package ABI: a341e906d02015f84f0fc6f3deaea154e8be2fe1862c35575b2ec643ef9a20c7
+Installing 9/13 imgui:arm64-osx@1.84.2...
+Building imgui:arm64-osx@1.84.2...
+warning: -- Using community triplet arm64-osx. This triplet configuration is not guaranteed to succeed.
+-- [COMMUNITY] Loading triplet configuration from: /Users/piaasbjornsen/Documents/H2023/vcpkg/triplets/community/arm64-osx.cmake
+-- Installing port from location: /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/imgui/c07b221daf49a22fc9e8e7571bb329485f618a7f
+-- Downloading https://github.com/ocornut/imgui/archive/v1.84.2.tar.gz -> ocornut-imgui-v1.84.2.tar.gz...
+-- Extracting source /Users/piaasbjornsen/Documents/H2023/vcpkg/downloads/ocornut-imgui-v1.84.2.tar.gz
+-- Using source at /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/imgui/src/v1.84.2-fd28f2b826.clean
+-- Configuring arm64-osx-dbg
+-- Configuring arm64-osx-rel
+-- Building arm64-osx-dbg
+-- Building arm64-osx-rel
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/imgui_arm64-osx/share/imgui/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 214 ms.
+Elapsed time to handle imgui:arm64-osx: 5.3 s
+imgui:arm64-osx package ABI: 8f60458f5ac2d168fad15a5f01474ddd4a64c0b12290fb8aca3ba6b2c83cddae
+Installing 10/13 ms-gsl:arm64-osx@3.1.0#1...
+Building ms-gsl:arm64-osx@3.1.0#1...
+warning: -- Using community triplet arm64-osx. This triplet configuration is not guaranteed to succeed.
+-- [COMMUNITY] Loading triplet configuration from: /Users/piaasbjornsen/Documents/H2023/vcpkg/triplets/community/arm64-osx.cmake
+-- Installing port from location: /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/ms-gsl/d51947d40835a72b1728c68ca8587e04e3f8e1e2
+-- Downloading https://github.com/Microsoft/GSL/archive/0f6dbc9e2915ef5c16830f3fa3565738de2a9230.tar.gz -> Microsoft-GSL-0f6dbc9e2915ef5c16830f3fa3565738de2a9230.tar.gz...
+-- Extracting source /Users/piaasbjornsen/Documents/H2023/vcpkg/downloads/Microsoft-GSL-0f6dbc9e2915ef5c16830f3fa3565738de2a9230.tar.gz
+-- Using source at /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/ms-gsl/src/38de2a9230-f0e3aae458.clean
+-- Configuring arm64-osx-dbg
+-- Configuring arm64-osx-rel
+-- Building arm64-osx-dbg
+-- Building arm64-osx-rel
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/ms-gsl_arm64-osx/share/ms-gsl/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 8.84 ms.
+Elapsed time to handle ms-gsl:arm64-osx: 1.4 s
+ms-gsl:arm64-osx package ABI: 70e3cba0eed02b3bc50f9a3afcb94acc780a37213047e3b168e895dcd3e9084d
+Installing 11/13 nativefiledialog:arm64-osx@2019-08-28#1...
+Building nativefiledialog:arm64-osx@2019-08-28#1...
+warning: -- Using community triplet arm64-osx. This triplet configuration is not guaranteed to succeed.
+-- [COMMUNITY] Loading triplet configuration from: /Users/piaasbjornsen/Documents/H2023/vcpkg/triplets/community/arm64-osx.cmake
+-- Installing port from location: /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/nativefiledialog/d765a8f84ba49c18701f68b7471f1b93b7313ddc
+-- Downloading https://github.com/mlabbe/nativefiledialog/archive/ceb75f7abf30736aa8ee4800cde0d444c798f8b9.tar.gz -> mlabbe-nativefiledialog-ceb75f7abf30736aa8ee4800cde0d444c798f8b9.tar.gz...
+-- Extracting source /Users/piaasbjornsen/Documents/H2023/vcpkg/downloads/mlabbe-nativefiledialog-ceb75f7abf30736aa8ee4800cde0d444c798f8b9.tar.gz
+-- Using source at /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/nativefiledialog/src/44c798f8b9-0d908eb5b1.clean
+-- Configuring arm64-osx-dbg
+-- Configuring arm64-osx-rel
+-- Building arm64-osx-dbg
+-- Building arm64-osx-rel
+-- Performing post-build validation
+Stored binaries in 1 destinations in 8.84 ms.
+Elapsed time to handle nativefiledialog:arm64-osx: 2.1 s
+nativefiledialog:arm64-osx package ABI: 33b3b5c3982b3faddd949d035959d1fa65169023a0f19363c5ecc33aba297263
+Installing 12/13 stb:arm64-osx@2020-09-14#1...
+Building stb:arm64-osx@2020-09-14#1...
+warning: -- Using community triplet arm64-osx. This triplet configuration is not guaranteed to succeed.
+-- [COMMUNITY] Loading triplet configuration from: /Users/piaasbjornsen/Documents/H2023/vcpkg/triplets/community/arm64-osx.cmake
+-- Installing port from location: /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/stb/fa6d7e998f98f122efa37f456ffa498d546185b9
+-- Downloading https://github.com/nothings/stb/archive/b42009b3b9d4ca35bc703f5310eedc74f584be58.tar.gz -> nothings-stb-b42009b3b9d4ca35bc703f5310eedc74f584be58.tar.gz...
+-- Extracting source /Users/piaasbjornsen/Documents/H2023/vcpkg/downloads/nothings-stb-b42009b3b9d4ca35bc703f5310eedc74f584be58.tar.gz
+-- Using source at /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/stb/src/74f584be58-c6ba25f408.clean
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/stb_arm64-osx/share/stb/copyright
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/stb_arm64-osx/share/stb/FindStb.cmake
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/stb_arm64-osx/share/stb/vcpkg-cmake-wrapper.cmake
+-- Performing post-build validation
+Stored binaries in 1 destinations in 46.1 ms.
+Elapsed time to handle stb:arm64-osx: 1.2 s
+stb:arm64-osx package ABI: 39814dbf9db9eddc8c003eb8242349f98dbf09dae15cbb1def453f2c863736f8
+Installing 13/13 tbb:arm64-osx@2020_U3#6...
+Building tbb:arm64-osx@2020_U3#6...
+warning: -- Using community triplet arm64-osx. This triplet configuration is not guaranteed to succeed.
+-- [COMMUNITY] Loading triplet configuration from: /Users/piaasbjornsen/Documents/H2023/vcpkg/triplets/community/arm64-osx.cmake
+-- Installing port from location: /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/tbb/e168e03c2e5776bdee59accf5f643ae26b0ddd84
+-- Downloading https://github.com/oneapi-src/oneTBB/archive/eca91f16d7490a8abfdee652dadf457ec820cc37.tar.gz -> oneapi-src-oneTBB-eca91f16d7490a8abfdee652dadf457ec820cc37.tar.gz...
+-- Extracting source /Users/piaasbjornsen/Documents/H2023/vcpkg/downloads/oneapi-src-oneTBB-eca91f16d7490a8abfdee652dadf457ec820cc37.tar.gz
+-- Applying patch fix-static-build.patch
+-- Applying patch terminate-when-buildtool-notfound.patch
+-- Using source at /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/tbb/src/7ec820cc37-30e75ff0be.clean
+-- Configuring arm64-osx-dbg
+-- Configuring arm64-osx-rel
+-- Building arm64-osx-dbg
+-- Building arm64-osx-rel
+-- Installing: /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/tbb_arm64-osx/share/tbb/copyright
+-- Performing post-build validation
+warning: Mismatching number of debug and release binaries.
+Debug binaries were not found.
+Found 2 release binaries:
+
+  /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/tbb_arm64-osx/lib/libtbb.a
+  /Users/piaasbjornsen/Documents/H2023/vcpkg/packages/tbb_arm64-osx/lib/libtbbmalloc.a
+
+error: Found 1 post-build check problem(s). To submit these ports to curated catalogs, please first correct the portfile: /Users/piaasbjornsen/Documents/H2023/vcpkg/buildtrees/versioning_/versions/tbb/e168e03c2e5776bdee59accf5f643ae26b0ddd84/portfile.cmake
+Stored binaries in 1 destinations in 210 ms.
+Elapsed time to handle tbb:arm64-osx: 8.7 s
+tbb:arm64-osx package ABI: 1d4ac4759686023acee821393d6e955a870bf9b76cb1b964bd43869ebc6b7f25
+Total install time: 1.8 min
+catch2 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(Catch2 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Catch2::Catch2 Catch2::Catch2WithMain)
+
+catch2 provides pkg-config modules:
+
+    # A modern, C++-native, header-only, test framework for C++11
+    catch2
+
+The package fmt provides CMake targets:
+
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt)
+
+    # Or use the header-only version
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt-header-only)
+
+The package glew is compatible with built-in CMake targets:
+
+    find_package(GLEW REQUIRED)
+    target_link_libraries(main PRIVATE GLEW::GLEW)
+
+glfw3 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(glfw3 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE glfw)
+
+glfw3 provides pkg-config modules:
+
+    # A multi-platform library for OpenGL, window and input
+    glfw3
+
+glm provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(glm CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE glm::glm)
+
+imgui provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(imgui CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE imgui::imgui)
+
+ms-gsl provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(Microsoft.GSL CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Microsoft.GSL::GSL)
+
+nativefiledialog provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(unofficial-nativefiledialog CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE unofficial::nativefiledialog::nfd)
+
+stb is header-only and can be used from CMake via:
+
+    find_path(STB_INCLUDE_DIRS "stb.h")
+    target_include_directories(main PRIVATE ${STB_INCLUDE_DIRS})
+
+The package tbb provides CMake targets:
+
+    find_package(TBB CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE TBB::tbb)
+

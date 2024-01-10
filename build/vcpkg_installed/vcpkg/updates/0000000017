@@ -1,0 +1,7 @@
+Package: imgui
+Version: 1.84.2
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 8f60458f5ac2d168fad15a5f01474ddd4a64c0b12290fb8aca3ba6b2c83cddae
+Description: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies.
+Status: install ok installed

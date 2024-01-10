@@ -1,0 +1,10 @@
+/Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/CMakeFiles/VolVis.dir
+/Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/CMakeFiles/ImGuiWrapper.dir
+/Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/CMakeFiles/Viewer.dir
+/Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/CMakeFiles/test.dir
+/Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/CMakeFiles/edit_cache.dir
+/Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/CMakeFiles/rebuild_cache.dir
+/Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/integrity_tests/CMakeFiles/IntegrityTests.dir
+/Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/integrity_tests/CMakeFiles/test.dir
+/Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/integrity_tests/CMakeFiles/edit_cache.dir
+/Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/integrity_tests/CMakeFiles/rebuild_cache.dir

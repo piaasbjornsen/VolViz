@@ -1,0 +1,8 @@
+Package: ms-gsl
+Version: 3.1.0
+Port-Version: 1
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 70e3cba0eed02b3bc50f9a3afcb94acc780a37213047e3b168e895dcd3e9084d
+Description: Microsoft implementation of the Guidelines Support Library
+Status: install ok half-installed
