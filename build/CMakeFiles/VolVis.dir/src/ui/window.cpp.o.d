@@ -1,7 +1,7 @@
 CMakeFiles/VolVis.dir/src/ui/window.cpp.o: \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/ui/window.cpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/ui/window.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/GL/glew.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/ui/window.cpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/ui/window.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/GL/glew.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \
@@ -55,7 +55,7 @@ CMakeFiles/VolVis.dir/src/ui/window.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/os/availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/GLFW/glfw3.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/search.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -711,29 +711,29 @@ CMakeFiles/VolVis.dir/src/ui/window.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/vec2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/qualifier.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/setup.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/vec2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/qualifier.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/setup.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/assert.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/../simd/platform.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec2.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/./compute_vector_relational.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool2_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float2_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double2_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int2_sized.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_int2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/scalar_int_sized.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint2_sized.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_uint2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/scalar_uint_sized.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/../simd/platform.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec2.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/./compute_vector_relational.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool2_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float2_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double2_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int2_sized.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_int2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/scalar_int_sized.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint2_sized.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_uint2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/scalar_uint_sized.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/string_view \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__fwd/string_view.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__string/char_traits.h \
@@ -744,13 +744,13 @@ CMakeFiles/VolVis.dir/src/ui/window.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/imgui.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/imconfig.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/imgui.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/float.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/imgui/imgui_impl_glfw.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/imgui/imgui_impl_opengl3.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/imgui/imgui_impl_glfw.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/imgui/imgui_impl_opengl3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ios/fpos.h \

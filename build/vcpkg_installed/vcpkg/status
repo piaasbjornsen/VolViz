@@ -1,0 +1,114 @@
+Package: vcpkg-cmake-config
+Version: 2021-05-22
+Port-Version: 1
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 07f5d0e584d965727868b22e3a846447f6db1e6aadf75efbaa52c5841e53ac70
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2021-07-30
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 2e9a5a4a1278d962c22101b69925cf09614733a0498b9d478c36b5613706ed97
+Status: install ok installed
+
+Package: catch2
+Version: 2.13.7
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 982d5ca7335828eb83eb35d5c7bef852ba3eb626510811b748ffce7d2ff16a63
+Description: A modern, header-only test framework for unit testing.
+Status: install ok installed
+
+Package: fmt
+Version: 8.0.1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 442017f5192fb5a7a501aa723498101e88d025ef649896f11368a93a02140d18
+Description: Formatting library for C++. It can be used as a safe alternative to printf or as a fast alternative to IOStreams.
+Status: install ok installed
+
+Package: opengl
+Version: 0.0
+Port-Version: 9
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 9408fc1f9bff7115a142404c134437d874062b69daa2648ace0e5ec6524b657b
+Description: Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
+Status: install ok installed
+
+Package: glew
+Version: 2.2.0
+Depends: opengl, vcpkg-cmake, vcpkg-cmake-config
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 56a6f7d8fb71e9c8a65e9b0d8349b46195519a24d1cee3b6cfb18cf40bd1ac25
+Description: The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library.
+Status: install ok installed
+
+Package: glfw3
+Version: 3.3.4
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: d929acf3814086dcadc992563ba8083273b8acc0aa43662e0aa1772447fd362f
+Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+Status: install ok installed
+
+Package: glm
+Version: 0.9.9.8
+Port-Version: 1
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: a341e906d02015f84f0fc6f3deaea154e8be2fe1862c35575b2ec643ef9a20c7
+Description: OpenGL Mathematics (GLM)
+Status: install ok installed
+
+Package: imgui
+Version: 1.84.2
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 8f60458f5ac2d168fad15a5f01474ddd4a64c0b12290fb8aca3ba6b2c83cddae
+Description: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies.
+Status: install ok installed
+
+Package: ms-gsl
+Version: 3.1.0
+Port-Version: 1
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 70e3cba0eed02b3bc50f9a3afcb94acc780a37213047e3b168e895dcd3e9084d
+Description: Microsoft implementation of the Guidelines Support Library
+Status: install ok installed
+
+Package: nativefiledialog
+Version: 2019-08-28
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 33b3b5c3982b3faddd949d035959d1fa65169023a0f19363c5ecc33aba297263
+Description: A tiny, neat C library that portably invokes native file open and save dialogs
+Status: install ok installed
+
+Package: stb
+Version: 2020-09-14
+Port-Version: 1
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 39814dbf9db9eddc8c003eb8242349f98dbf09dae15cbb1def453f2c863736f8
+Description: public domain header-only libraries
+Status: install ok installed
+
+Package: tbb
+Version: 2020_U3
+Port-Version: 6
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 1d4ac4759686023acee821393d6e955a870bf9b76cb1b964bd43869ebc6b7f25
+Description: Intel's Threading Building Blocks.
+Status: install ok installed
+

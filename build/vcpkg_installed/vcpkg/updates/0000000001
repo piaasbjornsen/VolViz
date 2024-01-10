@@ -1,7 +1,0 @@
-Package: vcpkg-cmake-config
-Version: 2021-05-22
-Port-Version: 1
-Architecture: arm64-osx
-Multi-Arch: same
-Abi: 07f5d0e584d965727868b22e3a846447f6db1e6aadf75efbaa52c5841e53ac70
-Status: install ok installed

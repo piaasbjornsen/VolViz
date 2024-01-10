@@ -1,4 +1,4 @@
-# Install script for directory: /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework
+# Install script for directory: /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/integrity_tests/cmake_install.cmake")
+  include("/Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/integrity_tests/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

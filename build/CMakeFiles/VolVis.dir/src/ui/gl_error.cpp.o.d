@@ -1,6 +1,6 @@
 CMakeFiles/VolVis.dir/src/ui/gl_error.cpp.o: \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/ui/gl_error.cpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/ui/gl_error.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/ui/gl_error.cpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/ui/gl_error.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/string_view \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/min.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -715,7 +715,7 @@ CMakeFiles/VolVis.dir/src/ui/gl_error.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/GL/glew.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/GL/glew.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/os/availability.h \

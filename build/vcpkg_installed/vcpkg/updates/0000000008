@@ -1,8 +1,0 @@
-Package: opengl
-Version: 0.0
-Port-Version: 9
-Architecture: arm64-osx
-Multi-Arch: same
-Abi: 9408fc1f9bff7115a142404c134437d874062b69daa2648ace0e5ec6524b657b
-Description: Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
-Status: install ok half-installed

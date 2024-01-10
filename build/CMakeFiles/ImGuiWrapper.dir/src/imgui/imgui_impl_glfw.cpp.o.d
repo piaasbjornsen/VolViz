@@ -1,7 +1,7 @@
 CMakeFiles/ImGuiWrapper.dir/src/imgui/imgui_impl_glfw.cpp.o: \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/imgui/imgui_impl_glfw.cpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/imgui.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/imconfig.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/imgui/imgui_impl_glfw.cpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/imgui.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config_site \
@@ -86,8 +86,8 @@ CMakeFiles/ImGuiWrapper.dir/src/imgui/imgui_impl_glfw.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/malloc/_malloc_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/imgui/imgui_impl_glfw.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/GLFW/glfw3.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/imgui/imgui_impl_glfw.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \

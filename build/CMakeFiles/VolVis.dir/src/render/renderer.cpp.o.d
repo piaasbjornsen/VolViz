@@ -1,12 +1,12 @@
 CMakeFiles/VolVis.dir/src/render/renderer.cpp.o: \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/render/renderer.cpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/render/renderer.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/render/ray.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/vec3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/qualifier.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/setup.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/render/renderer.cpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/render/renderer.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/render/ray.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/vec3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/qualifier.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/setup.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \
@@ -94,7 +94,7 @@ CMakeFiles/VolVis.dir/src/render/renderer.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/../simd/platform.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/../simd/platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/invoke.h \
@@ -216,41 +216,41 @@ CMakeFiles/VolVis.dir/src/render/renderer.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_pointer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/result_of.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/type_identity.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec3.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/compute_vector_relational.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec3.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/compute_vector_relational.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/limits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__undef_macros \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool3_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float3_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double3_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int3_sized.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_int3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/scalar_int_sized.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint3_sized.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_uint3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/scalar_uint_sized.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/render/ray_trace_camera.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/vec2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec2.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/./compute_vector_relational.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool2_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float2_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double2_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int2_sized.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_int2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint2_sized.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_uint2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/render/render_config.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool3_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float3_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double3_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int3_sized.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_int3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/scalar_int_sized.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint3_sized.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_uint3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/scalar_uint_sized.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/render/ray_trace_camera.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/vec2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec2.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/./compute_vector_relational.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool2_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float2_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double2_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int2_sized.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_int2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint2_sized.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_uint2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/render/render_config.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/equal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -710,23 +710,23 @@ CMakeFiles/VolVis.dir/src/render/renderer.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/weak_result_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/allocator_destructor.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/uses_allocator_construction.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/vec4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec4.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool4_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float4_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double4_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int4_sized.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_int4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint4_sized.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_uint4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/volume/gradient_volume.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/volume/volume.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/vec4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec4.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_bool4_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_float4_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_double4_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_int4_sized.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_int4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/vector_uint4_sized.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../ext/vector_uint4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/volume/gradient_volume.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/volume/volume.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
@@ -850,110 +850,110 @@ CMakeFiles/VolVis.dir/src/render/renderer.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/mat4x4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double4x4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat4x4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat4x4.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/../matrix.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/detail/qualifier.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/detail/setup.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/mat2x2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double2x2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat2x2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat2x2.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double2x2_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float2x2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float2x2_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/mat2x3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double2x3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat2x3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat2x3.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double2x3_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float2x3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float2x3_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/mat2x4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double2x4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat2x4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat2x4.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double2x4_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float2x4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float2x4_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/mat3x2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double3x2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat3x2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat3x2.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double3x2_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float3x2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float3x2_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/mat3x3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double3x3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat3x3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat3x3.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double3x3_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float3x3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float3x3_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/mat3x4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double3x4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat3x4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat3x4.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double3x4_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float3x4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float3x4_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/mat4x2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double4x2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat4x2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat4x2.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double4x2_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float4x2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float4x2_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/mat4x3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double4x3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat4x3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat4x3.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double4x3_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float4x3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float4x3_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/detail/func_matrix.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/../geometric.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/detail/type_vec3.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/detail/func_geometric.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/../exponential.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/detail/type_vec1.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec1.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/detail/type_vec2.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/detail/type_vec4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/detail/func_exponential.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/../vector_relational.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/detail/func_vector_relational.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/_vectorize.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/../common.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/detail/_fixes.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/detail/func_common.inl \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/compute_common.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec1.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double4x4_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float4x4.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float4x4_precision.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/gsl/span \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/gsl/gsl_assert \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/gsl/gsl_byte \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/common.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/gtx/component_wise.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/gtx/../detail/setup.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/gtx/../detail/qualifier.hpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/glm/gtx/component_wise.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/mat4x4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double4x4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat4x4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat4x4.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/../matrix.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/detail/qualifier.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/detail/setup.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/mat2x2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double2x2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat2x2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat2x2.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double2x2_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float2x2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float2x2_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/mat2x3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double2x3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat2x3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat2x3.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double2x3_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float2x3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float2x3_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/mat2x4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double2x4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat2x4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat2x4.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double2x4_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float2x4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float2x4_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/mat3x2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double3x2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat3x2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat3x2.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double3x2_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float3x2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float3x2_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/mat3x3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double3x3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat3x3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat3x3.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double3x3_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float3x3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float3x3_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/mat3x4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double3x4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat3x4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat3x4.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double3x4_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float3x4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float3x4_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/mat4x2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double4x2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat4x2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat4x2.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double4x2_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float4x2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float4x2_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/mat4x3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double4x3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat4x3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_mat4x3.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double4x3_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float4x3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float4x3_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/detail/func_matrix.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/../geometric.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/detail/type_vec3.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/detail/func_geometric.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/../exponential.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/detail/type_vec1.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec1.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/detail/type_vec2.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/detail/type_vec4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/detail/func_exponential.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/../vector_relational.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/detail/func_vector_relational.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/_vectorize.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/../common.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/detail/_fixes.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/detail/func_common.inl \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/compute_common.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/../detail/type_vec1.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_double4x4_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float4x4.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/./ext/matrix_float4x4_precision.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/gsl/span \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/gsl/gsl_assert \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/gsl/gsl_byte \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/common.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/gtx/component_wise.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/gtx/../detail/setup.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/gtx/../detail/qualifier.hpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/glm/gtx/component_wise.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iostream \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/blocked_range2d.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/tbb_stddef.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/tbb_config.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/blocked_range.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/parallel_for.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/internal/_warning_suppress_enable_notice.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/internal/../tbb_config.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/task.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/internal/_deprecated_header_message_guard.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/tbb_machine.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/machine/macos_common.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/blocked_range2d.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/tbb_stddef.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/tbb_config.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/blocked_range.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/parallel_for.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/internal/_warning_suppress_enable_notice.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/internal/../tbb_config.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/task.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/internal/_deprecated_header_message_guard.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/tbb_machine.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/machine/macos_common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/sysctl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_timeval64.h \
@@ -982,15 +982,15 @@ CMakeFiles/VolVis.dir/src/render/renderer.cpp.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/libkern/OSSpinLockDeprecated.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/libkern/OSAtomicQueue.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/tbb_profiling.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/internal/_tbb_strings.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/atomic.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/internal/_warning_suppress_disable_notice.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/partitioner.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/task_arena.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/tbb_exception.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/tbb_allocator.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/internal/_template_helpers.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/aligned_space.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/internal/_tbb_trace_impl.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/tbb/internal/../tbb_profiling.h
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/tbb_profiling.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/internal/_tbb_strings.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/atomic.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/internal/_warning_suppress_disable_notice.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/partitioner.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/task_arena.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/tbb_exception.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/tbb_allocator.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/internal/_template_helpers.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/aligned_space.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/internal/_tbb_trace_impl.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/tbb/internal/../tbb_profiling.h

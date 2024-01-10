@@ -1,7 +1,7 @@
 CMakeFiles/VolVis.dir/src/ui/opengl.cpp.o: \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/ui/opengl.cpp \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/src/ui/opengl.h \
-  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/build/vcpkg_installed/arm64-osx/include/GL/glew.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/ui/opengl.cpp \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/src/ui/opengl.h \
+  /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/build/vcpkg_installed/arm64-osx/include/GL/glew.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/VolVis_Project_Framework/integrity_tests
+# Install script for directory: /Users/piaasbjornsen/Documents/H2023/DataViz/VolViz/integrity_tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
