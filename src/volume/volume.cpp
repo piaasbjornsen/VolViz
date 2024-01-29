@@ -121,7 +121,30 @@ float Volume::getSampleNearestNeighbourInterpolation(const glm::vec3& coord) con
 // This function returns the trilinear interpolated value at the continuous 3D position given by coord.
 float Volume::getSampleTriLinearInterpolation(const glm::vec3& coord) const
 {
-    return 0.0f;
+    // make sure that the incoming coordinate is within the volume bounds m_dim
+      if (coord.x < 0 || coord.x >= m_dim.x ||
+        coord.y < 0 || coord.y >= m_dim.y ||
+        coord.z < 0 || coord.z >= m_dim.z) {
+        // Handle the case where coord is out of bounds.
+        // You can return a default value, throw an exception, etc.
+        return 0.0f; 
+    }
+
+    int z0 = static_cast<int>(coord.z);
+    int z1 = z0 + 1;
+    z1 = std::min(z1, m_dim.z - 1); // Ensure z1 is within bounds
+
+    float zFraction = coord.z - z0;
+
+    glm::vec2 xyCoord = glm::vec2(coord.x, coord.y);
+
+    // Bilinear interpolation at the two z-planes
+    float valZ0 = biLinearInterpolate(xyCoord, z0);
+    float valZ1 = biLinearInterpolate(xyCoord, z1);
+
+    // Linear interpolation between the two z-planes
+    return linearInterpolate(valZ0, valZ1, zFraction);
+
 }
 
 // This function linearly interpolates the value at X using incoming values g0 and g1 given a factor (equal to the positon of x in 1D)
@@ -130,13 +153,30 @@ float Volume::getSampleTriLinearInterpolation(const glm::vec3& coord) const
 //   factor
 float Volume::linearInterpolate(float g0, float g1, float factor)
 {
-    return 0.0f;
+    // g0 and g1 create the interpolation line for X, factor is where we want to find the new X-value 
+    return g0 + (g1-g0) * factor ;
 }
 
 // This function bi-linearly interpolates the value at the given continuous 2D XY coordinate for a fixed integer z coordinate.
 float Volume::biLinearInterpolate(const glm::vec2& xyCoord, int z) const
 {
-    return 0.0f;
+    int x0 = static_cast<int>(xyCoord.x);
+    int y0 = static_cast<int>(xyCoord.y);
+
+    int x1 = x0 + 1;
+    int y1 = y0 + 1;
+
+    float g00 = getVoxel(x0, y0, z);
+    float g01 = getVoxel(x0, y1, z);
+    float g10 = getVoxel(x1, y0, z);
+    float g11 = getVoxel(x1, y1, z);
+
+    float xFraction = xyCoord.x - x0;
+    float g0 = linearInterpolate(g00, g10, xFraction);
+    float g1 = linearInterpolate(g01, g11, xFraction);
+
+    float yFraction = xyCoord.y - y0;
+    return linearInterpolate(g0, g1, yFraction);
 }
 
 
@@ -178,6 +218,10 @@ void Volume::loadFile(const std::filesystem::path& file)
 
     const auto header = readHeader(ifs);
     m_dim = header.dim;
+     std::cout << "Volume bounds Dimension: (" 
+              << m_dim.x << ", " 
+              << m_dim.y << ", " 
+              << m_dim.z << ")" << std::endl;   
     m_elementSize = header.elementSize;
 
     const size_t voxelCount = static_cast<size_t>(header.dim.x * header.dim.y * header.dim.z);
